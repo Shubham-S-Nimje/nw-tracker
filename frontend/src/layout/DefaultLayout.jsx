@@ -23,7 +23,7 @@ const DefaultLayout = ({ authenticated, pageTitle }) => {
 
   return (
     authenticated && (
-      <div className="bg-gray-100">
+      <div className="bg-gray-100 max-w-sm mx-auto">
         <Header pageTitle={pageTitle} />
         {pageTitle === "dashboard" ? (
           <Dashboard />
